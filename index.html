@@ -1,0 +1,26 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Pixel Art</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <img  id = "img-fundo" src="super-mario-world-ending-1-1024x663.png">
+        <main>
+            <h1 id= "title" >Paleta de Cores</h1>
+            <div id ="color-palette"> 
+                <div id = "black" class= "color selected"></div>
+                <div id= "purple" class="color"></div>
+                <div id= "yellow" class="color"></div>
+                <div id= "pink" class="color"></div>
+            </div >
+            <div id="botoes">
+            <input id = "board-size" type = "number" max="50" min="1" placeholder="Defina o tamanho do pixel"></input>
+            <button id = "generate-board">vqv</button>
+            <button id = "clear-board">Limpar</button>
+            </div>
+            <div id="pixel-board"></div>
+        </main> 
+        <script src="scripts.js"></script>
+    </body>
+</html>

@@ -1,0 +1,70 @@
+#black { background-color: black;
+  margin: 5px
+}
+#purple { background-color: purple;
+  margin: 5px
+}
+#yellow { background-color: yellow;
+  margin: 5px
+}
+#pink { background-color: pink;
+  margin: 5px
+}
+h1 { position: relative; 
+    margin-bottom: 5px; 
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.877);
+    color: rgba(233, 43, 43, 0.911);
+    display: inline-block;
+    border-radius: 20px;
+    padding-right: 10px ;
+    padding-left: 10px;
+    font-family: storytime;}
+.color { border-style: solid;
+  border-width: 1px;
+  display: inline-block;
+  position:relative;
+  padding-top: 40px;
+  padding-right: 40px}
+.color-palette { position: relative;
+  margin: 20px;
+  display: inline-block;
+  text-align: center }
+
+body {text-align: center;
+  height: 100%;
+}
+
+#pixel-board { position: relative;
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  padding-bottom: 10px;
+}
+
+.pixel { border-style: solid;
+  border-width: 1px;
+  background-color: white;
+  height: 40px; width: 40px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+#img-fundo { position: fixed;
+  width: 100%;
+  height: 100%;
+  right: -1px;
+  z-index: -1;
+  top: -1px;
+}
+
+#botoes { margin: 2px;
+}
+
+main { margin-top: 20px;}
+
+@font-face {
+  font-family: storytime;
+  src: url('fonts/Super\ Mario\ Bros..ttf');
+}
